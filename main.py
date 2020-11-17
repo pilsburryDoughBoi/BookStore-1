@@ -29,13 +29,13 @@ while numcopies > 6:
   print(numcopies)
   numcopies += 1
   print("Thank you for your donation")
-finalaction = input("Would you like to donate again? ")
+finalaction = input("Would you like to donate again? [Y/N] ")
 print(finalaction)
 
-a = "yes" 
-b = "no"
-
-if b > a:
+while True: 
+  a = input("Thank you for your donation. Would you like to donate again? [Y/N] ")
+if a == 'n'
   print("Thanks for donating")
-else:
+elif:
+  a == 'y' 
   print("One moment we are processing your next donation")
