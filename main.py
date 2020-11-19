@@ -3,7 +3,7 @@ def my_function(greeting):
 my_function("greeting")
 
 
-formatslist = ["paperback", "hardcover", "audiobook"]
+formatslist = ["paperback, hardcover , audiobook"]
 i = 0
 while i < len(formatslist):
   print(formatslist[i])
@@ -18,24 +18,15 @@ print("Book name is: " + novelname)
 numcopies = input("Enter amount of copies donated:")
 print("Amount donated: " + numcopies + " Success")
 
-
-numcopies = input("")
-while numcopies < 6:
-  print(numcopies)
-  if numcopies == 0:
-    break
-    print("0 copies. Must donate at least 1 book")
-while numcopies > 6:
-  print(numcopies)
-  numcopies += 1
-  print("Thank you for your donation")
-
+if  numcopies == 0:
+ print("0 copies. Must donate at least 1 book")
 
 while True: 
+ if numcopies > 0:
   a = input("Thank you for your donation. Would you like to donate again? [Y/N] ")
 if a == 'n':
   print("Thanks for donating")
 elif a == 'y': 
   print("One moment we are processing your next donation")
 else: 
-  print(" Please enter y or n ")
+ print("Please type y or n ")
