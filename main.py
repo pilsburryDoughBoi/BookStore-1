@@ -29,11 +29,11 @@ if numcopies >= 0:
   no = set(['no','n'])
      
   while True:
-        choice = input(answer).lower()
-        if choice in yes:
-           return my_function True
-        elif choice in no:
-           return my_function False
+    choice = input(answer).lower()
+    if choice in yes:
+       return my_function True
+    elif choice in no:
+       return my_function False
 
 #if answer == 'n':
 #  print("Thanks for donating")
