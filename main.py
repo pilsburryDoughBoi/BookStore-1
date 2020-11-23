@@ -21,24 +21,22 @@ print("Amount donated: " + numcopies + " Success")
 if  numcopies == 0:
  print("0 copies. Must donate at least 1 book")
 
-if numcopies >= 0:
-  answer = input("Thank you for your donation. Would you like to donate again? [Y/N] ")
-  def yes_no(answer):
+answer = input("Thank you for your donation. Would you like to donate again? [Y/N] ")
+def yes_no(answer):
    print("Thank you for your donation. Would you like to donate again? [Y/N] ")
-  yes = set(['yes','y', 'ye', ''])
-  no = set(['no','n'])
+yes = set(['yes','y', 'ye', ''])
+no = set(['no','n'])
      
-  while True:
+while True:
     choice = input(answer).lower()
     if choice in yes:
-       return my_function True
+        my_function 
     elif choice in no:
-       return my_function False
+        my_function 
 
-#if answer == 'n':
-#  print("Thanks for donating")
-#elif answer == 'y': 
- # print("One moment we are processing your next donation")
-#else: 
- #print("Please type y or n ")
-
+if answer == 'n':
+  print("Thanks for donating")
+elif answer == 'y': 
+  print("One moment we are processing your next donation")
+else: 
+ print("Please type y or n ")
