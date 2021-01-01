@@ -12,9 +12,15 @@ while i < len(formatslist):
 genre = input("Enter genre of the book:")
 print("genre: " + genre)
 
+if genre == "":
+  print("Please type in book genre")
+
 novelname = input("Enter book name:")
 print("Book name is: " + novelname)
 
+if novelname == "":
+  print("please type name of book")
+  
 numcopies = input("Enter amount of copies donated:")
 print("Amount donated: " + numcopies + " Success")
 
